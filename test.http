@@ -1,0 +1,27 @@
+GET https://e6m5zf5ca8.execute-api.eu-west-2.amazonaws.com/prod/spaces
+###
+
+GET https://e6m5zf5ca8.execute-api.eu-west-2.amazonaws.com/prod/spaces?id=91d15b0b-fd7c-489e-a290-63ebabd9de72
+###
+
+POST https://e6m5zf5ca8.execute-api.eu-west-2.amazonaws.com/prod/spaces
+content-type: application/json
+
+{
+    "description": "Space 2 description",
+    "location": "Space 2 location"
+}
+
+###
+PUT https://e6m5zf5ca8.execute-api.eu-west-2.amazonaws.com/prod/spaces?id=38ec9c98-7df6-4846-b445-d7b989d50149
+Content-Type: application/json
+
+{
+    "description": "Space UPDATED description",
+    "location": "Space UPDATED location"
+}
+
+
+###
+DELETE  https://e6m5zf5ca8.execute-api.eu-west-2.amazonaws.com/prod/spaces?id=38ec9c98-7df6-4846-b445-d7b989d50149
+
